@@ -12,9 +12,10 @@ To use edaSQL, first install it using pip:
 
    (.venv) $ pip install edaSQL
 
-Importing the Package
+Importing the Package and Iniate the eda object
 ----------------
-    (.python) import lumache
+>>> import edaSQL
+>>> edasql = edaSQL.SQL()
 
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
@@ -26,10 +27,4 @@ or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
 will raise an exception.
 
 .. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
