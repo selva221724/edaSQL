@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="eda-SQL",  # This is the name of the package
+    name="edaSQL",  # This is the name of the package
     version="0.0.1",  # The initial release version
     author="Tamil Selvan A V",  # Full name of the author
     description="Exploratory Data Analytics tool for SQL",
