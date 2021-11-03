@@ -18,3 +18,5 @@ Contents
 
    usage
    api
+
+edaSQL has its documentation hosted on Read the Docs.
