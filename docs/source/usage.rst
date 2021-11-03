@@ -6,14 +6,15 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use edaSQL, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install edaSQL
 
-Creating recipes
+Importing the Package
 ----------------
+    (.python) import lumache
 
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
