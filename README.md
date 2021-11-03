@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="readme_src/sql_logo_smaller.png" width="70%" height="70%" >
+  <img src="https://raw.githubusercontent.com/selva221724/edaSQL/main/readme_src/sql_logo_smaller.png" width="70%" height="70%" >
   <br><br>
 </p>
 
@@ -76,4 +76,4 @@ outliers = eda.getOutliers()
 ```
 
 ## Jupyter NoteBook Tutorial
-<img src="readme_src/notebook.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/main/readme_src/notebook.png">
