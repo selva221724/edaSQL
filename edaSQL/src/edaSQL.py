@@ -4,7 +4,6 @@ import numpy as np
 import seaborn as sb
 from matplotlib import pyplot as plt
 import missingno
-import insights
 import warnings
 import pandas as pd
 
