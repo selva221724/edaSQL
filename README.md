@@ -3,10 +3,10 @@
   <br><br>
 </p>
 
-## SQL Bridge to Exploratory Data Analysis Tool   
+## SQL Bridge Tool to Exploratory Data Analysis  
 
 
-**edaSQL** is a library to link SQL to **Exploratory Data Analysis** and further more in the Data Engineering. This will solve many limitations in the SQL studios available in the market. 
+**edaSQL** is a library to link SQL to **Exploratory Data Analysis** and further more in the Data Engineering. This will solve many limitations in the SQL studios available in the market. Use the SQL Query language to get your Table Results. 
 
 ## Installation
 Install using pip . [Offical Python Package Here!!](https://pypi.org/project/edaSQL/)
