@@ -3,6 +3,10 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+# Read the requirements
+with (source_root / "requirements.txt").open(encoding="utf8") as f:
+    requirements = f.readlines()
+
 setuptools.setup(
     name="edaSQL",  # This is the name of the package
     version="0.0.1",  # The initial release version
@@ -34,6 +38,6 @@ setuptools.setup(
     python_requires='>=3.6',  # Minimum version requirement of the package
     py_modules=["edaSQL"],  # Name of the python package
     package_dir={'': 'edaSQL/src'},  # Directory of the source code of the package
-    install_requires=[]  # Install other dependencies if any
+    install_requires=requirements  # Install other dependencies if any
 
 )
