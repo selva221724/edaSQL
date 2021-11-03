@@ -24,6 +24,13 @@ python setup.py install
 
 ## Documentation
 
+<img src="https://blog.readthedocs.com/_static/logo-opengraph.png"  width="20%" height="20%">
+
+[Read the detailed documentation in readthedocs.io](https://edasql.readthedocs.io/en/latest/)
+
+
+## edaSQL Code Sample
+
 ### Import Packages
 ```python
 import edaSQL
@@ -76,4 +83,5 @@ outliers = eda.getOutliers()
 ```
 
 ## Jupyter NoteBook Tutorial
+
 <img src="https://raw.githubusercontent.com/selva221724/edaSQL/main/readme_src/notebook.png">
