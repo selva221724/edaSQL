@@ -4,12 +4,12 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 # Read the requirements
-with (source_root / "requirements.txt").open(encoding="utf8") as f:
+with open("requirements.txt",encoding="utf8") as f:
     requirements = f.readlines()
 
 setuptools.setup(
     name="edaSQL",  # This is the name of the package
-    version="0.0.1",  # The initial release version
+    version="0.0.2",  # The initial release version
     author="Tamil Selvan A V",  # Full name of the author
     description="Exploratory Data Analytics tool for SQL",
     url="https://github.com/selva221724/edaSQL",
