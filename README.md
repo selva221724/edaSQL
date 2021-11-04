@@ -3,8 +3,8 @@
   <br><br>
 </p>
 
-[<img src="https://img.shields.io/static/v1?label=pypi&message=0.0.1&color=green">](https://pypi.org/project/edaSQL/)
-[<img src="https://img.shields.io/static/v1?label=docs&message=passing&color=green">](https://edasql.readthedocs.io/en/latest/)
+[<img src="https://img.shields.io/pypi/v/edaSQL">](https://pypi.org/project/edaSQL/)
+[<img src="https://img.shields.io/readthedocs/edasql">](https://edasql.readthedocs.io/en/latest/)
 [<img src="https://img.shields.io/static/v1?label=license&message=MIT&color=green">](https://opensource.org/licenses/MIT)
 <img src="https://img.shields.io/pypi/wheel/edaSQL">
 <img src = "https://img.shields.io/pypi/pyversions/edaSQL">
