@@ -9,7 +9,7 @@ with open("requirements.txt",encoding="utf8") as f:
 
 setuptools.setup(
     name="edaSQL",  # This is the name of the package
-    version="0.0.3.3",  # The initial release version
+    version="0.0.1.1",  # The initial release version
     author="Tamil Selvan A V",  # Full name of the author
     description="Exploratory Data Analytics tool for SQL",
     url="https://github.com/selva221724/edaSQL",
