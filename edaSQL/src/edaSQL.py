@@ -91,7 +91,8 @@ class SQL:
             ';UID=' + self.user +
             ';PWD=' + self.password)
 
-        display(HTML('<img src="sql_logo.jpg" width="50%" height="50%">'))
+        display(HTML('<img src="https://raw.githubusercontent.com/selva221724/edaSQL/main/readme_src/sql_logo_smaller'
+                     '.png" width="50%" height="50%">'))
 
         if self.printAll:
             print('========== Connected to DataBase Successfully ===========')
