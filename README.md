@@ -65,79 +65,79 @@ edasql.connectToDataBase(server='your server name',
                          sqlDriver='ODBC Driver 17 for SQL Server')
 ```
 
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/db_connected.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/main/readme_src/notebook_results/db_connected.png">
 
 ### 2. Query Data 
 ```python
 sampleQuery = "select  * from INX"
 data = pd.read_sql(sampleQuery, edasql.dbConnection)
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/data_sample.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/data_sample.png">
 
 ### 3. Data Overview
 ```python
 insights =  edaSQL.EDA(dataFrame=data,HTMLDisplay=True)
 dataInsights =insights.dataInsights()
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/1.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/1.png">
 
 ```python
 deepInsights = insights.deepInsights()
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/2.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/2.png">
 
 ### 4. Correlation
 ```python
 eda = edaSQL.EDA(dataFrame=data)
 eda.pearsonCorrelation()
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/3.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/3.png">
 
 ```python
 eda.spearmanCorrelation()
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/4.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/4.png">
 
 ```python
 eda.kendallCorrelation()
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/5.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/5.png">
 
 ### 5. Missing Values
 
 ```python
 eda.missingValuesPlot(plot ='matrix')
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/6.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/6.png">
 
 ```python
 eda.missingValuesPlot(plot ='bar')
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/7.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/7.png">
 
 ```python
 eda.missingValuesPlot(plot ='heatmap')
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/8.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/8.png">
 
 ```python
 eda.missingValuesPlot(plot ='dendrogram')
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/9.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/9.png">
 
 ### 6. Outliers 
 
 ```python
 eda.outliersVisualization(plot = 'box')
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/10.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/10.png">
 
 ```python
 eda.outliersVisualization(plot = 'scatter')
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/11.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/11.png">
 
 ```python
 outliers = eda.getOutliers()
 ```
-<img src="https://github.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/12.png">
+<img src="https://raw.githubusercontent.com/selva221724/edaSQL/blob/main/readme_src/notebook_results/12.png">
