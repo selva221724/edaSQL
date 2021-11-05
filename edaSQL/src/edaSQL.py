@@ -9,6 +9,7 @@ import pandas as pd
 
 warnings.filterwarnings('ignore')
 
+
 def isNaN(num):
     return num != num
 
@@ -19,7 +20,7 @@ def findIfColumnsWithConstantValues(dataFrame: pd.core.frame.DataFrame) -> dict:
     constantValues = {}
     for i in dataFrame.columns:
         uniqueValues = list(dataFrame[i].unique())
-        if len(uniqueValues) == 1 and uniqueValues[0] not in [np.NAN,None,''] and not isNaN(uniqueValues[0]):
+        if len(uniqueValues) == 1 and uniqueValues[0] not in [np.NAN, None, ''] and not isNaN(uniqueValues[0]):
             constantValues.update({i: uniqueValues[0]})
 
     return constantValues
@@ -33,7 +34,7 @@ def findIfColumnsWithHighCardinality(dataFrame: pd.core.frame.DataFrame) -> dict
     for i in dataFrame.columns:
         uniqueValues = list(dataFrame[i].unique())
         if len(uniqueValues) > 100 and not len(uniqueValues) == len(dataFrame):
-            cardinalityValues.update({i:str(len(uniqueValues))})
+            cardinalityValues.update({i: str(len(uniqueValues))})
 
     return cardinalityValues
 
@@ -55,7 +56,7 @@ def findMissingValuesPercentage(dataFrame: pd.core.frame.DataFrame) -> dict:
 
     all_data_na = (dataFrame.isnull().sum() / len(dataFrame)) * 100
     all_data_na = all_data_na.drop(all_data_na[all_data_na == 0].index).sort_values(ascending=False)
-    missing_data = pd.DataFrame({'Missing Ratio': all_data_na.apply(lambda x: str(round(x,2)))}).to_dict()
+    missing_data = pd.DataFrame({'Missing Ratio': all_data_na.apply(lambda x: str(round(x, 2)))}).to_dict()
     return missing_data['Missing Ratio']
 
 
@@ -163,11 +164,11 @@ class EDA:
 
     def deepInsights(self, printAll=True) -> dict:
         deepInsights = {
-            "Columns with Constant Values": insights.findIfColumnsWithConstantValues(self.dataFrame),
-            "Columns with High Cardinality": insights.findIfColumnsWithHighCardinality(self.dataFrame),
-            "Columns with  with Unique ID's": insights.findIfColumnsWithUniqueIDs(self.dataFrame),
-            "Columns with Missing Values Percentage": insights.findMissingValuesPercentage(self.dataFrame),
-            "Columns with Binary Values": insights.findBinaryColumns(self.dataFrame)
+            "Columns with Constant Values": findIfColumnsWithConstantValues(self.dataFrame),
+            "Columns with High Cardinality": findIfColumnsWithHighCardinality(self.dataFrame),
+            "Columns with  with Unique ID's": findIfColumnsWithUniqueIDs(self.dataFrame),
+            "Columns with Missing Values Percentage": findMissingValuesPercentage(self.dataFrame),
+            "Columns with Binary Values": findBinaryColumns(self.dataFrame)
         }
 
         mapper = {
