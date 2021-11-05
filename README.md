@@ -46,6 +46,12 @@ python setup.py install
 
 [Read the detailed documentation in readthedocs.io](https://edasql.readthedocs.io/en/latest/)
 
+## License
+The license for edaSQL is MIT license 
+
+## Need help?
+Stuck on your edaSQL code or problem? Any other questions? Don't
+hestitate to send me an email (selva221724@gmail.com).
 
 ## edaSQL Jupyter NoteBook Tutorial
 
@@ -142,3 +148,5 @@ eda.outliersVisualization(plot = 'scatter')
 outliers = eda.getOutliers()
 ```
 <img src="https://raw.githubusercontent.com/selva221724/edaSQL/main/readme_src/notebook_results/12.png">
+
+
