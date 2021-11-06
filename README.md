@@ -44,7 +44,7 @@ python setup.py install
 
 <img src="https://blog.readthedocs.com/_static/logo-opengraph.png"  width="20%" height="20%">
 
-[Read the detailed documentation in readthedocs.io](https://edasql.readthedocs.io/en/latest/)
+[Read the detailed documentation in readthedocs.io](https://edasql.readthedocs.io/en/latest/) (still under the development) 
 
 ## License
 The license for edaSQL is MIT license 
