@@ -57,6 +57,9 @@ hestitate to send me an email (selva221724@gmail.com).
 
 Access the sample Jupyter Notebook [here!!](https://github.com/selva221724/edaSQL/blob/main/example_notebook/SampleNoteBook_edaSQL.ipynb)
 
+Access the Sample Data Used in this Repo
+- [CSV](https://github.com/selva221724/edaSQL/blob/main/sampleData/CSV/INX.csv)
+- [DataBase Backup](https://github.com/selva221724/edaSQL/blob/main/sampleData/DataBaseBackup/INX.bak) ( you can restore the DB in SQL Studio ) 
 
 **edaSQL for DataFrame:** If you are using the CSV or Excel as a source , Read using the Pandas &  start from the [**3. Data Overview**](#Chapter1)
 
