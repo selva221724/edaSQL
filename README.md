@@ -58,7 +58,7 @@ hestitate to send me an email (selva221724@gmail.com).
 Access the sample Jupyter Notebook [here!!](https://github.com/selva221724/edaSQL/blob/main/example_notebook/SampleNoteBook_edaSQL.ipynb)
 
 
-**edaSQL for DataFrame:** If you are using the CSV or Excel as a source , Read using the Pandas &  start from the [**3. Data Overview**](https://github.com/selva221724/edaSQL/blob/67638bcf09e1572b3840e1ea1f1f549a4b3f8f96/README.md?plain=1#L88)
+**edaSQL for DataFrame:** If you are using the CSV or Excel as a source , Read using the Pandas &  start from the [**3. Data Overview**](#Chapter1)
 
 ### Import Packages
 ```python
@@ -84,6 +84,8 @@ sampleQuery = "select  * from INX"
 data = pd.read_sql(sampleQuery, edasql.dbConnection)
 ```
 <img src="https://raw.githubusercontent.com/selva221724/edaSQL/main/readme_src/notebook_results/data_sample.png">
+
+<div id="Chapter1"></div>
 
 ### 3. Data Overview
 ```python
