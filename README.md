@@ -55,6 +55,8 @@ hestitate to send me an email (selva221724@gmail.com).
 
 ## edaSQL Jupyter NoteBook Tutorial
 
+Access the sample Jupyter Notebook [here!!](https://github.com/selva221724/edaSQL/blob/main/example_notebook/SampleNoteBook_edaSQL.ipynb)
+
 ### Import Packages
 ```python
 import edaSQL
