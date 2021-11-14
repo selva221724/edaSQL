@@ -14,11 +14,13 @@ To use edaSQL, first install it using pip:
 
 Importing the Package and Iniate the eda object
 ----------------
->>> import edaSQL
->>> edasql = edaSQL.SQL()
+.. code-block:: python
+
+  import edaSQL
+  edasql = edaSQL.SQL()
 
 To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+you can use the ``edaSQL.SQL()`` function:
 
 .. autofunction:: lumache.get_random_ingredients
 
